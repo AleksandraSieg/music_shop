@@ -1,0 +1,52 @@
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/login.css HTTP/1.1" 200 1203
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+hello world
+"GET / HTTP/1.1" 200 3213
+hello world
+"GET / HTTP/1.1" 200 3213
+"GET /media/jlp_Y8cqVvq.jpg HTTP/1.1" 200 6399
+"GET /media/jlp_aF3b8sT.jpg HTTP/1.1" 200 6399
+"GET /media/jlp.jpg HTTP/1.1" 200 6399
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2996
+"GET /update/1 HTTP/1.1" 200 2698
+Internal Server Error: /update/1
+Traceback (most recent call last):
+  File "D:\clear_project\music_shop\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\clear_project\music_shop\env\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\clear_project\music_shop\env\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\clear_project\music_shop\musicapp\music\views.py", line 37, in update_cd
+    return redirect('index')
+NameError: name 'redirect' is not defined
+"POST /update/1 HTTP/1.1" 500 71966
+hello world
+"GET / HTTP/1.1" 200 3215
+"GET /upload/ HTTP/1.1" 200 2508
+"POST /upload/ HTTP/1.1" 200 1092
+hello world
+"GET / HTTP/1.1" 200 3921
+"GET /media/americana.jpg HTTP/1.1" 200 43275
+"GET /delete/5 HTTP/1.1" 200 1092
+hello world
+"GET / HTTP/1.1" 200 3261
+"GET /media/americana.jpg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/login.css HTTP/1.1" 200 1203
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 1978
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 1978
